@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="loading" class="bg-black justify-content-center align-items-center">
+        <i class="fa fa-spinner fa-5x text-white"></i>
+    </section>
+
+
+    <div class="sideBar d-flex">
+        <div class="sideBarInner p-4">
+            <ul id="options">
+                <li class="py-2 text-capitalize">search</li>
+                <li class="py-2 text-capitalize">categories</li>
+                <li class="py-2 text-capitalize">area</li>
+                <li class="py-2 text-capitalize">ingredients</li>
+                <li class="py-2 text-capitalize">contact us</li>
+            </ul>
+
+            <div class="sideBarFooter">
+
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-globe"></i>
+                <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+            </div>
+        </div>
+        <div class="sideBarEdge py-4 px-2 text-center bg-white text-black">
+            <img src="Images/logo.png" class="logo" alt="">
+            <i id="sideBarIcon" class="fa-solid fa-bars fa-2x"></i>
+            <!-- <i class="fa-light fa-xmark"></i> -->
+            <div>
+                <i class="fa-solid fa-globe py-1 d-block"></i>
+                <i class="fa-solid fa-share-nodes d-block"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main">
+        <div class="container">
+            <div id="mealItems" class="row py-4 flex-wrap">
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/bootstrap.bundle.js"></script>
+    <script src="JS/jquery-3.6.3.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
